@@ -16,9 +16,16 @@ namespace ReadBooks
             MainPage = new NavigationPage( new MainPage());
         }
 
-        protected override void OnStart()
+        protected override async void OnStart()
         {
-            AppCenter.Start("ios=9de751a1-17a2-46a5-a082-41911f615657;android=b3744649-43bb-431e-9665-7b459cc2d16c", typeof(Analytics), typeof(Crashes));
+            AppCenter.Start("ios=9de751a1-17a2-46a5-a082-41911f615657;android=b3744649-43bb-431e-9665-7b459cc2d16c",
+                typeof(Analytics), typeof(Crashes));
+
+            var didAppCrashed = await Crashes.HasCrashedInLastSessionAsync();
+            if(didAppCrashed)
+            {
+                await MainPage.DisplayAlert("I'm sorry", "It apears some issues", "Ok");
+            }
         }
 
         protected override void OnSleep()
