@@ -7,6 +7,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ReadBooks.iOS", "ReadBooks.
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ReadBooks", "ReadBooks\ReadBooks.csproj", "{552116B0-2155-40F9-BBEC-4143EB4F3272}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ReadBooks.Test", "ReadBooks.Test\ReadBooks.Test.csproj", "{4A50BF48-1BB5-47E3-AAD9-430712DC5B5D}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -53,5 +55,17 @@ Global
 		{552116B0-2155-40F9-BBEC-4143EB4F3272}.Debug|iPhone.Build.0 = Debug|Any CPU
 		{552116B0-2155-40F9-BBEC-4143EB4F3272}.Release|iPhone.ActiveCfg = Release|Any CPU
 		{552116B0-2155-40F9-BBEC-4143EB4F3272}.Release|iPhone.Build.0 = Release|Any CPU
+		{4A50BF48-1BB5-47E3-AAD9-430712DC5B5D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4A50BF48-1BB5-47E3-AAD9-430712DC5B5D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4A50BF48-1BB5-47E3-AAD9-430712DC5B5D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4A50BF48-1BB5-47E3-AAD9-430712DC5B5D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4A50BF48-1BB5-47E3-AAD9-430712DC5B5D}.Debug|iPhoneSimulator.ActiveCfg = Debug|Any CPU
+		{4A50BF48-1BB5-47E3-AAD9-430712DC5B5D}.Debug|iPhoneSimulator.Build.0 = Debug|Any CPU
+		{4A50BF48-1BB5-47E3-AAD9-430712DC5B5D}.Release|iPhoneSimulator.ActiveCfg = Release|Any CPU
+		{4A50BF48-1BB5-47E3-AAD9-430712DC5B5D}.Release|iPhoneSimulator.Build.0 = Release|Any CPU
+		{4A50BF48-1BB5-47E3-AAD9-430712DC5B5D}.Debug|iPhone.ActiveCfg = Debug|Any CPU
+		{4A50BF48-1BB5-47E3-AAD9-430712DC5B5D}.Debug|iPhone.Build.0 = Debug|Any CPU
+		{4A50BF48-1BB5-47E3-AAD9-430712DC5B5D}.Release|iPhone.ActiveCfg = Release|Any CPU
+		{4A50BF48-1BB5-47E3-AAD9-430712DC5B5D}.Release|iPhone.Build.0 = Release|Any CPU
 	EndGlobalSection
 EndGlobal

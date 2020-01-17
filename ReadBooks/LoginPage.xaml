@@ -1,6 +1,9 @@
 ﻿<?xml version="1.0" encoding="UTF-8"?>
 <ContentPage xmlns="http://xamarin.com/schemas/2014/forms" xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml" x:Class="ReadBooks.LoginPage">
-    <StackLayout VerticalOptions="CenterAndExpand" HorizontalOptions="CenterAndExpand">
-        <Button Text="Login" TextColor="Wheat" Clicked="Button_Clicked" BackgroundColor="Teal" />
+    <StackLayout VerticalOptions="CenterAndExpand" HorizontalOptions="Fill">
+        <Button Text="Login" TextColor="Wheat"
+                Clicked="Button_Clicked"
+                BackgroundColor="Teal" HorizontalOptions="Fill"
+                AutomationId="LoginPageButton"/>
     </StackLayout>
 </ContentPage>
