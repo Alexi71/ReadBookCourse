@@ -28,6 +28,7 @@ namespace ReadBooks.Test
                     // TODO: Update this path to point to your Android app and uncomment the
                     // code if the app is not included in the solution.
                     //.ApkFile ("../../../Droid/bin/Debug/xamarinforms.apk")
+                    .InstalledApp("com.graw.readbooks.readbooks")
                     .StartApp();
             }
 
@@ -35,7 +36,7 @@ namespace ReadBooks.Test
                 .iOS
                 // TODO: Update this path to point to your iOS app and uncomment the
                 // code if the app is not included in the solution.
-                //.AppBundle ("../../../iOS/bin/iPhoneSimulator/Debug/XamarinForms.iOS.app")
+                .AppBundle ("/Users/kotika/Projects/ReadBooks/ReadBooks.iOS/bin/iPhoneSimulator/Debug/device-builds/iphone 11 pro max-13.3/ReadBooks.iOS.app")
                 .StartApp();
         }
     }

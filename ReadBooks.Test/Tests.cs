@@ -26,9 +26,14 @@ namespace ReadBooks.Test
         }
 
         [Test]
-        public void AppLaunches()
+        public void AppLauAppNavigatesToLogin()
         {
-            app.Screenshot("First screen.");
+            
+            app.Tap(x => x.Text("Login"));
+            //app.Repl();
+
+            var result = app.Query(x => x.Marked("LoginPageButton"));
+            Assert.IsTrue(result.Any(), "Navigation to Login didin't happen");
         }
     }
 }

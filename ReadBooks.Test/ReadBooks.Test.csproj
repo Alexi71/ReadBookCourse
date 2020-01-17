@@ -41,5 +41,19 @@
   <ItemGroup>
     <None Include="packages.config" />
   </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\ReadBooks.Android\ReadBooks.Android.csproj">
+      <Project>{FBFD84E2-1EA7-4C4A-97D2-CEED52C3D175}</Project>
+      <Name>ReadBooks.Android</Name>
+      <ReferenceOutputAssembly>False</ReferenceOutputAssembly>
+      <Private>False</Private>
+    </ProjectReference>
+    <ProjectReference Include="..\ReadBooks.iOS\ReadBooks.iOS.csproj">
+      <Project>{C9AE657F-55F2-42F1-9D80-638645190C48}</Project>
+      <Name>ReadBooks.iOS</Name>
+      <ReferenceOutputAssembly>False</ReferenceOutputAssembly>
+      <Private>False</Private>
+    </ProjectReference>
+  </ItemGroup>
   <Import Project="$(MSBuildBinPath)\Microsoft.CSharp.targets" />
 </Project>
