@@ -18,7 +18,7 @@ namespace ReadBooks
 
         protected override void OnStart()
         {
-            AppCenter.Start("ios=5477708f-8483-4f5c-9a0b-ee0ee9938bc4;android=9c4b2361-18a4-49fd-990d-9b7d47beee6d", typeof(Analytics), typeof(Crashes));
+            AppCenter.Start("ios=9de751a1-17a2-46a5-a082-41911f615657;android=b3744649-43bb-431e-9665-7b459cc2d16c", typeof(Analytics), typeof(Crashes));
         }
 
         protected override void OnSleep()
